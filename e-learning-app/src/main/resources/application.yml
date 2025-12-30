@@ -1,0 +1,29 @@
+server:
+  port: 8081
+
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          # URL du realm que nous créerons dans l'étape suivante
+          issuer-uri: http://localhost:8080/realms/elearning-realm
+          jwk-set-uri: http://localhost:8080/realms/elearning-realm/protocol/openid-connect/certs
+  datasource:
+    url: jdbc:h2:mem:elearningdb
+    driverClassName: org.h2.Driver
+    username: sa
+    password:
+    jpa:
+      database-platform: org.hibernate.dialect.H2Dialect
+      hibernate:
+        ddl-auto: update
+      show-sql: true
+    h2:
+      console:
+        enabled: true # Permet d'aller sur http://localhost:8080/h2-console pour voir la base
+
+# Activer les logs de sécurité pour le debug
+logging:
+  level:
+    org.springframework.security: DEBUG
