@@ -146,7 +146,7 @@ Modal permettant la mise à jour d'un cours existant avec :
 
 ### Formulaire d'Ajout de Cours
 
-![Ajouter Cours]([add-course-form.png](https://github.com/FatihaELHABTI/elearning-oauth2-fullstack/blob/main/imgs/Capture%20d'%C3%A9cran%202025-12-31%20002848.png))
+![Ajouter Cours](https://github.com/FatihaELHABTI/elearning-oauth2-fullstack/blob/main/imgs/Capture%20d'%C3%A9cran%202025-12-31%20002848.png)
 
 Modal pour créer un nouveau cours avec :
 - Champs vides prêts à remplir
@@ -167,7 +167,7 @@ Page dédiée à la gestion des instructeurs visible uniquement pour les admins 
 
 ### Formulaire d'Ajout d'Instructeur
 
-![Ajouter Instructeur]([add-instructor-form.png](https://github.com/FatihaELHABTI/elearning-oauth2-fullstack/blob/main/imgs/Capture%20d'%C3%A9cran%202025-12-31%20002917.png))
+![Ajouter Instructeur](https://github.com/FatihaELHABTI/elearning-oauth2-fullstack/blob/main/imgs/Capture%20d'%C3%A9cran%202025-12-31%20002917.png)
 
 Modal pour créer un nouvel instructeur avec les champs :
 - Nom de l'instructeur
@@ -189,7 +189,7 @@ Interface pour l'utilisateur "user1" avec le rôle STUDENT :
 
 ### Catalogue de Cours - Vue Étudiant Détaillée
 
-![Catalogue Student]([student-courses-view.png](https://github.com/FatihaELHABTI/elearning-oauth2-fullstack/blob/main/imgs/Capture%20d'%C3%A9cran%202025-12-31%20003013.png))
+![Catalogue Student](https://github.com/FatihaELHABTI/elearning-oauth2-fullstack/blob/main/imgs/Capture%20d'%C3%A9cran%202025-12-31%20003013.png)
 
 Vue étudiant montrant plus de cours avec :
 - Accès à tous les cours disponibles
